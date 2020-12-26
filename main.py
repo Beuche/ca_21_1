@@ -7,5 +7,5 @@ while True:
         else:
             basic.set_led_color(0x000000)
             led_an=True
-    while not input.button_is_pressed(Button.A):
+    while input.button_is_pressed(Button.A):
         pass

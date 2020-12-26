@@ -11,7 +11,7 @@ while (true) {
         
     }
     
-    while (!input.buttonIsPressed(Button.A)) {
+    while (input.buttonIsPressed(Button.A)) {
         
     }
 }
